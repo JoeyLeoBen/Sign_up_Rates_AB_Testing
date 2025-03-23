@@ -39,16 +39,45 @@ The A/B test reveals that the button colour does have an impact of the launc-pag
 ### **Chi-Squared Test Insights: A/A**
 
 ![Treatment vs Conrtol AA](./ReadMe_Images/Treatment_vs_Control_AA.png)
-![Chi Squared Test AA](./ReadMe_Images/Chi_Squared_Test_AA.png)
+
+-------- AA Test (2021-12-18 - 2021-12-31)---------
+
+Ho: The sign-up rates between blue and green are the same.
+Ha: The sign-up rates between blue and green are different.
+
+Significance level: 0.05
+Chi-Square = 0.577 | P-value = 0.448
+
+Conclusion:
+Fail to reject Ho. Therefore, proceed with the AB test.
 
 ### **Sample Ratio Mismatch (SRM)**
 
-![SRM](./ReadMe_Images/SRM.png)
+------- A Chi-Square Test for SRM --------
+
+Ho: The ratio of samples is 1:1.
+Ha: The ratio of samples is not 1:1.
+
+Significance level: 0.05
+Chi-Square = 1.290 | P-value = 0.256
+
+Conclusion:
+Fail to reject Ho. Therefore, there is no SRM.
 
 ### **Z-Test Insights: A/B**
 
 ![Treatment vs Conrtol AB](./ReadMe_Images/Treatment_vs_Control_AB.png)
-![Z-Test](./ReadMe_Images/Z_Test_AB.png)
+
+-------- AB Test Email Sign-Ups (2022-02-01 - 2022-02-14)---------
+
+Ho: The sign-up rates between blue and green are the same.
+Ha: The sign-up rates between blue and green are different.
+
+Significance level: 0.05
+Z-Statistic = 3.509 | P-value = 0.000
+
+Conclusion:
+Reject Ho and conclude that there is statistical significance in the difference of sign-up rates between blue and green buttons.
 
 ---
 
